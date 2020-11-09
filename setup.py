@@ -1,16 +1,21 @@
-from setuptools import setup
+import setuptools
 
+with open('README.md', 'r') as fh:
+  long_description = fh.read()
 
-setup(
-  name="GeneralTools",
-  version="0.1.0",
+setuptools.setup(
+  name="sd-tools-SADESHMUKH",
+  version="0.0.1",
   author="Siddhant A. Deshmukh",
-  author_email="sdeshmukh@lsw.uni-heidelberg.de",
-  packages=["analysis", "utilities", "utilities.astroTools"],
-  scripts=[],
-  url="",
-  license="",
+  author_email="siddhant593@gmail.com",
   description="A collection of useful plotting, analysis and manipulation scripts for data science.",
-  long_description=open("README.md").read(),
-  install_requires=[]
+  long_description=long_description,
+  url="https://github.com/SiddhantDeshmukh/usefulScripts",
+  packages=setuptools.find_packages(),
+  classifiers=[
+    "Programming Language :: Python :: 3",
+    "Liecense :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+  ],
+  python_requires=">=3.6"
 )
