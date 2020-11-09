@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
   long_description = fh.read()
 
 setuptools.setup(
-  name="sd-tools-SADESHMUKH",
+  name="sadtools",
   version="0.0.1",
   author="Siddhant A. Deshmukh",
   author_email="siddhant593@gmail.com",
@@ -14,7 +14,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   classifiers=[
     "Programming Language :: Python :: 3",
-    "Liecense :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
   ],
   python_requires=">=3.6"
