@@ -1,4 +1,7 @@
+.gitignore
+LICENSE.txt
 README.md
+__init__.py
 setup.py
 analysis/__init__.py
 analysis/plotHelper.py

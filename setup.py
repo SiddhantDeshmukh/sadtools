@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
   name="sadtools",
-  version="0.0.1",
+  version="0.0.4",
   author="Siddhant A. Deshmukh",
   author_email="siddhant593@gmail.com",
   description="A collection of useful plotting, analysis and manipulation scripts for data science.",
