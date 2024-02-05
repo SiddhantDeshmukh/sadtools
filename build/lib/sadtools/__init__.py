@@ -1,2 +1,2 @@
-from .analysis import *
-from .utilities import *
+from . import analysis
+from . import utilities

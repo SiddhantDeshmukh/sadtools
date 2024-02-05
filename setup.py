@@ -10,7 +10,7 @@ setuptools.setup(
   author_email="siddhant593@gmail.com",
   description="A collection of useful plotting, analysis and manipulation scripts for data science.",
   long_description=long_description,
-  url="https://github.com/SiddhantDeshmukh/usefulScripts",
+  url="https://github.com/SiddhantDeshmukh/sadtools",
   packages=setuptools.find_packages(),
   classifiers=[
     "Programming Language :: Python :: 3",

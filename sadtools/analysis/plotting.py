@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import plotHelper as pH
-
 
 try:
   plt.style.use('scientific_grid_no_space')

@@ -1,5 +1,5 @@
 import numpy as np
-import utilities as util
+from .listUtilities import list_instances_to_dict
 import astropy.units as u
 
 
@@ -58,8 +58,8 @@ def concentration_to_number_density(concentration):
 # Stoichiometry functions
 # -------------------------------------------------------------------------
 def calculate_stoichiometry(reactants_list, products_list, return_dicts=False):
-  reactant_stoichiometry = util.list_instances_to_dict(reactants_list)
-  product_stoichiometry = util.list_instances_to_dict(products_list)
+  reactant_stoichiometry = list_instances_to_dict(reactants_list)
+  product_stoichiometry = list_instances_to_dict(products_list)
 
   if return_dicts:
     return reactant_stoichiometry, product_stoichiometry
